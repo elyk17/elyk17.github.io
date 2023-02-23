@@ -1,0 +1,1 @@
+﻿SELECT title, book_page FROM [dbo].[page] 

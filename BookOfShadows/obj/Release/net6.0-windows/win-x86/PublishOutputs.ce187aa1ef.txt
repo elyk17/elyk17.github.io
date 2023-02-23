@@ -1,0 +1,9 @@
+c:\deploy\BookOfShadows.pdb
+c:\deploy\D3DCompiler_47_cor3.dll
+c:\deploy\PenImc_cor3.dll
+c:\deploy\PresentationNative_cor3.dll
+c:\deploy\vcruntime140_cor3.dll
+c:\deploy\wpfgfx_cor3.dll
+c:\deploy\Microsoft.Data.SqlClient.SNI.dll
+c:\deploy\sni.dll
+c:\deploy\BookOfShadows.exe

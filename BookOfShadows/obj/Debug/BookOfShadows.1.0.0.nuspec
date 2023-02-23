@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BookOfShadows</id>
+    <version>1.0.0</version>
+    <title>BookOfShadowsDeploy</title>
+    <authors>BookOfShadows</authors>
+    <projectUrl>https://github.com/elyk17/bos</projectUrl>
+    <description>spellbook</description>
+    <repository type="git" url="https://github.com/elyk17/bos" />
+    <dependencies>
+      <group targetFramework="net6.0-windows10.0.22621">
+        <dependency id="Microsoft.Data.SqlClient" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows10.0.22621">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows10.0.22621/book.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\kylem\OneDrive\Desktop\Debug\net6.0-windows10.0.22621.0\BookOfShadows.runtimeconfig.json" target="lib\net6.0-windows10.0.22621\BookOfShadows.runtimeconfig.json" />
+    <file src="C:\Users\kylem\OneDrive\Desktop\Debug\net6.0-windows10.0.22621.0\BookOfShadows.dll" target="lib\net6.0-windows10.0.22621\BookOfShadows.dll" />
+    <file src="C:\Users\kylem\OneDrive\Documents\bos\BookOfShadows\book.ico" target="content\book.ico" />
+    <file src="C:\Users\kylem\OneDrive\Documents\bos\BookOfShadows\book.ico" target="contentFiles\any\net6.0-windows10.0.22621\book.ico" />
+  </files>
+</package>

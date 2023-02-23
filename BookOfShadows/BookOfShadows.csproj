@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>c0b08d7d-76b1-4be1-a556-640fbb7f4139</UserSecretsId>
+    <BaseOutputPath>..\..\..\Desktop</BaseOutputPath>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>spellbook</Description>
+    <PackageProjectUrl>https://github.com/elyk17/bos</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/elyk17/bos</RepositoryUrl>
+    <StartupObject>BookOfShadows.Program</StartupObject>
+	  <LangVersion>latest</LangVersion>
+	  <SignAssembly>False</SignAssembly>
+	  <Title>BookOfShadowsDeploy</Title>
+	  <NeutralLanguage>en-US</NeutralLanguage>
+	  <IsPublishable>True</IsPublishable>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <ApplicationIcon>brownleatherbook.ico</ApplicationIcon>
+	  <PackageIcon>book.jpg</PackageIcon>
+	  <PackageTags>V1.0.0</PackageTags>
+	  <PackageOutputPath>..\..\..\Desktop</PackageOutputPath>
+	  <SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="book.ico" />
+    <Content Include="brownleatherbook.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Desktop\Artistic\book.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="bookofshadows.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

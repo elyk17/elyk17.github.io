@@ -1,0 +1,1 @@
+﻿SELECT CONVERT(varchar(55), password) FROM admin
