@@ -11,7 +11,7 @@
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>spellbook</Description>
-    <PackageProjectUrl>https://github.com/elyk17/bos</PackageProjectUrl>
+    <PackageProjectUrl>https://elyk17.github.io</PackageProjectUrl>
     <RepositoryUrl>https://github.com/elyk17/bos</RepositoryUrl>
     <StartupObject>BookOfShadows.Program</StartupObject>
 	  <LangVersion>latest</LangVersion>
@@ -21,7 +21,7 @@
 	  <IsPublishable>True</IsPublishable>
 	  <IncludeSymbols>True</IncludeSymbols>
 	  <ApplicationIcon>brownleatherbook.ico</ApplicationIcon>
-	  <PackageIcon>book.jpg</PackageIcon>
+	  <PackageIcon>brownleatherbookforapp.png</PackageIcon>
 	  <PackageTags>V1.0.0</PackageTags>
 	  <PackageOutputPath>..\..\..\Desktop</PackageOutputPath>
 	  <SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
@@ -33,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\Desktop\Artistic\book.jpg">
+    <None Include="..\artwork\brownleatherbookforapp.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
@@ -41,7 +41,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>

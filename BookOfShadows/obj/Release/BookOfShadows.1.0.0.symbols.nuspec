@@ -5,14 +5,14 @@
     <version>1.0.0</version>
     <title>BookOfShadowsDeploy</title>
     <authors>BookOfShadows</authors>
-    <icon>book.jpg</icon>
-    <projectUrl>https://github.com/elyk17/bos</projectUrl>
+    <icon>brownleatherbookforapp.png</icon>
+    <projectUrl>https://elyk17.github.io/</projectUrl>
     <description>spellbook</description>
     <tags>V1.0.0</tags>
     <repository type="git" url="https://github.com/elyk17/bos" />
     <dependencies>
       <group targetFramework="net6.0-windows10.0.22621">
-        <dependency id="Microsoft.Data.SqlClient" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="5.1.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="7.0.0" exclude="Build,Analyzers" />
         <dependency id="System.Data.SqlClient" version="4.8.5" exclude="Build,Analyzers" />
       </group>
@@ -30,13 +30,13 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="C:\Users\kylem\OneDrive\Desktop\Release\net6.0-windows10.0.22621.0\BookOfShadows.pdb" target="lib\net6.0-windows10.0.22621\BookOfShadows.pdb" />
-    <file src="C:\Users\kylem\OneDrive\Desktop\Release\net6.0-windows10.0.22621.0\BookOfShadows.runtimeconfig.json" target="lib\net6.0-windows10.0.22621\BookOfShadows.runtimeconfig.json" />
-    <file src="C:\Users\kylem\OneDrive\Desktop\Release\net6.0-windows10.0.22621.0\BookOfShadows.dll" target="lib\net6.0-windows10.0.22621\BookOfShadows.dll" />
-    <file src="C:\Users\kylem\OneDrive\Documents\bos\BookOfShadows\book.ico" target="content\book.ico" />
-    <file src="C:\Users\kylem\OneDrive\Documents\bos\BookOfShadows\book.ico" target="contentFiles\any\net6.0-windows10.0.22621\book.ico" />
-    <file src="C:\Users\kylem\OneDrive\Documents\bos\BookOfShadows\brownleatherbook.ico" target="content\brownleatherbook.ico" />
-    <file src="C:\Users\kylem\OneDrive\Documents\bos\BookOfShadows\brownleatherbook.ico" target="contentFiles\any\net6.0-windows10.0.22621\brownleatherbook.ico" />
-    <file src="C:\Users\kylem\OneDrive\Desktop\Artistic\book.jpg" target="\book.jpg" />
+    <file src="C:\Users\kylem\OneDrive\Documents\Desktop\Release\net6.0-windows10.0.22621.0\BookOfShadows.pdb" target="lib\net6.0-windows10.0.22621\BookOfShadows.pdb" />
+    <file src="C:\Users\kylem\OneDrive\Documents\Desktop\Release\net6.0-windows10.0.22621.0\BookOfShadows.runtimeconfig.json" target="lib\net6.0-windows10.0.22621\BookOfShadows.runtimeconfig.json" />
+    <file src="C:\Users\kylem\OneDrive\Documents\Desktop\Release\net6.0-windows10.0.22621.0\BookOfShadows.dll" target="lib\net6.0-windows10.0.22621\BookOfShadows.dll" />
+    <file src="C:\Users\kylem\OneDrive\Documents\GitHub\elyk17.github.io\BookOfShadows\book.ico" target="content\book.ico" />
+    <file src="C:\Users\kylem\OneDrive\Documents\GitHub\elyk17.github.io\BookOfShadows\book.ico" target="contentFiles\any\net6.0-windows10.0.22621\book.ico" />
+    <file src="C:\Users\kylem\OneDrive\Documents\GitHub\elyk17.github.io\BookOfShadows\brownleatherbook.ico" target="content\brownleatherbook.ico" />
+    <file src="C:\Users\kylem\OneDrive\Documents\GitHub\elyk17.github.io\BookOfShadows\brownleatherbook.ico" target="contentFiles\any\net6.0-windows10.0.22621\brownleatherbook.ico" />
+    <file src="C:\Users\kylem\OneDrive\Documents\GitHub\elyk17.github.io\artwork\brownleatherbookforapp.png" target="\brownleatherbookforapp.png" />
   </files>
 </package>
