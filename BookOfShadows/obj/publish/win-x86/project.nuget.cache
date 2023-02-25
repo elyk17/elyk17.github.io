@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BHAesgeZ3CXCFF1bU36AoQ0v9osie9ypEh2M/7d8KMGl6tvY1V4NZQmy5a8LsaK5zo8nrsMwnyRdKSxEjxUjHA==",
+  "dgSpecHash": "znoFI8RTvsZu7omYihozzQCwAHQfG4lAW2012nr5SrqqloLCiUG8MDulyVSx5qhut0blHayBIUGxa+SB6uv0fw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kylem\\OneDrive\\Documents\\GitHub\\elyk17.github.io\\BookOfShadows\\BookOfShadows.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,6 @@
     "C:\\Users\\kylem\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\kylem\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\kylem\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
-    "C:\\Users\\kylem\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\microsoft.web.webview2.1.0.864.35.nupkg.sha512",
     "C:\\Users\\kylem\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\kylem\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\kylem\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
@@ -66,8 +65,7 @@
     "C:\\Users\\kylem\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.12\\microsoft.netcore.app.runtime.win-x86.6.0.12.nupkg.sha512",
     "C:\\Users\\kylem\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.12\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.12.nupkg.sha512",
     "C:\\Users\\kylem\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.12\\microsoft.aspnetcore.app.runtime.win-x86.6.0.12.nupkg.sha512",
-    "C:\\Users\\kylem\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.12\\microsoft.netcore.app.crossgen2.win-x64.6.0.12.nupkg.sha512",
-    "C:\\Users\\kylem\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.28\\microsoft.windows.sdk.net.ref.10.0.22621.28.nupkg.sha512"
+    "C:\\Users\\kylem\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.12\\microsoft.netcore.app.crossgen2.win-x64.6.0.12.nupkg.sha512"
   ],
   "logs": []
 }

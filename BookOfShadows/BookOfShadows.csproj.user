@@ -3,18 +3,4 @@
   <PropertyGroup>
     <_LastSelectedProfileId>C:\Users\kylem\OneDrive\Documents\GitHub\elyk17.github.io\BookOfShadows\Properties\PublishProfiles\ClickOnceProfile1.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Update="bookpages.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="reset_password.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="setpassword.cs">
-      <SubType>Form</SubType>
-    </Compile>
-  </ItemGroup>
 </Project>

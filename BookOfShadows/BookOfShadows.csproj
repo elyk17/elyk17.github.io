@@ -29,6 +29,7 @@
 	  <GenerateDocumentationFile>False</GenerateDocumentationFile>
 	  <PlatformTarget>AnyCPU</PlatformTarget>
 	  <Platforms>AnyCPU;x86</Platforms>
+	  <BaseIntermediateOutputPath>obj</BaseIntermediateOutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
