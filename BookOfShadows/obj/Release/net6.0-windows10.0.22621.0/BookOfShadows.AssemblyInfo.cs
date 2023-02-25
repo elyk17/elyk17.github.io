@@ -20,7 +20,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("BookOfShadows")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookOfShadows")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/elyk17/bos")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://elyk17.github.io")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("en-US")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows10.0.22621.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows10.0.22621.0")]

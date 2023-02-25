@@ -5,8 +5,7 @@
     },
     "mssql1": {
       "type": "mssql",
-      "connectionId": "ConnectionStrings:bookofshadows",
-      "dynamicId": null
+      "connectionId": "ConnectionStrings:bookofshadows"
     }
   }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kylem\\OneDrive\\Documents\\bos\\BookOfShadows\\BookOfShadows.csproj": {}
+    "C:\\Users\\kylem\\OneDrive\\Documents\\GitHub\\elyk17.github.io\\BookOfShadows\\BookOfShadows.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kylem\\OneDrive\\Documents\\bos\\BookOfShadows\\BookOfShadows.csproj": {
+    "C:\\Users\\kylem\\OneDrive\\Documents\\GitHub\\elyk17.github.io\\BookOfShadows\\BookOfShadows.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kylem\\OneDrive\\Documents\\bos\\BookOfShadows\\BookOfShadows.csproj",
+        "projectUniqueName": "C:\\Users\\kylem\\OneDrive\\Documents\\GitHub\\elyk17.github.io\\BookOfShadows\\BookOfShadows.csproj",
         "projectName": "BookOfShadows",
-        "projectPath": "C:\\Users\\kylem\\OneDrive\\Documents\\bos\\BookOfShadows\\BookOfShadows.csproj",
+        "projectPath": "C:\\Users\\kylem\\OneDrive\\Documents\\GitHub\\elyk17.github.io\\BookOfShadows\\BookOfShadows.csproj",
         "packagesPath": "C:\\Users\\kylem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kylem\\OneDrive\\Documents\\bos\\BookOfShadows\\obj\\publish\\win-x86\\",
+        "outputPath": "C:\\Users\\kylem\\OneDrive\\Documents\\GitHub\\elyk17.github.io\\BookOfShadows\\obj\\publish\\win-x86\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kylem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[5.1.0, )"
             },
             "Microsoft.Extensions.Configuration.UserSecrets": {
               "target": "Package",
@@ -93,7 +93,7 @@
             "Microsoft.Windows.SDK.NET.Ref": {
               "privateAssets": "all"
             },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "Microsoft.WindowsDesktop.App": {
               "privateAssets": "none"
             }
           },

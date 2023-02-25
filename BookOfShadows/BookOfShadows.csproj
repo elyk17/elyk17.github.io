@@ -2,29 +2,55 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>c0b08d7d-76b1-4be1-a556-640fbb7f4139</UserSecretsId>
-    <BaseOutputPath>..\..\..\Desktop</BaseOutputPath>
+    <BaseOutputPath>C:\Users\kylem\OneDrive\Desktop\BOS</BaseOutputPath>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>spellbook</Description>
     <PackageProjectUrl>https://elyk17.github.io</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/elyk17/bos</RepositoryUrl>
+    <RepositoryUrl>https://elyk17.github.io</RepositoryUrl>
     <StartupObject>BookOfShadows.Program</StartupObject>
 	  <LangVersion>latest</LangVersion>
-	  <SignAssembly>False</SignAssembly>
+	  <SignAssembly>True</SignAssembly>
 	  <Title>BookOfShadowsDeploy</Title>
 	  <NeutralLanguage>en-US</NeutralLanguage>
 	  <IsPublishable>True</IsPublishable>
 	  <IncludeSymbols>True</IncludeSymbols>
 	  <ApplicationIcon>brownleatherbook.ico</ApplicationIcon>
 	  <PackageIcon>brownleatherbookforapp.png</PackageIcon>
-	  <PackageTags>V1.0.0</PackageTags>
+	  <PackageTags>V1.0.8</PackageTags>
 	  <PackageOutputPath>..\..\..\Desktop</PackageOutputPath>
-	  <SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <UseWPF>True</UseWPF>
+	  <GenerateDocumentationFile>False</GenerateDocumentationFile>
+	  <PlatformTarget>AnyCPU</PlatformTarget>
+	  <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DebugType>none</DebugType>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <WarningLevel>0</WarningLevel>
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <DebugType>none</DebugType>
+    <WarningLevel>0</WarningLevel>
+    <Optimize>False</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,6 +59,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Program Files\dotnet\sdk\7.0.101\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets" Link="Microsoft.NET.Sdk.targets" />
     <None Include="..\artwork\brownleatherbookforapp.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -44,6 +71,15 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BookOfShadows">
+      <HintPath>obj\Release\net6.0-windows10.0.22621.0\BookOfShadows.dll</HintPath>
+    </Reference>
+    <Reference Include="Launcher">
+      <HintPath>obj\Release\net6.0-windows10.0.22621.0\Launcher.exe</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
@@ -71,7 +107,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
